@@ -282,32 +282,185 @@
 # print(range(1,20))
 # iteration over a sequence 
 
-words = 'Adeoluwa'
+# words = 'Adeoluwa'
 
-print(words)
+# print(words)
 
-for items in words:
-    print(items) 
+# for items in words:
+#     print(items) 
 
-names = ['Hosanna','Busayo','Iyke','Thoe','Stella','Seyi']
+# names = ['Hosanna','Busayo','Iyke','Thoe','Stella','Seyi']
 
-for name in names:
-    print(name +'@alphapython.com')
+# for name in names:
+#     print(name +'@alphapython.com')
 
-list_of_numbers =[1,2,3,4,5]
+# list_of_numbers =[1,2,3,4,5]
 
-for number in list_of_numbers:
-    print(number *7)
+# for number in list_of_numbers:
+#     print(number *7)
 
 
-range(1,100)
+# range(1,100)
 
-for number in range(1500,3600):
-    if number % 5 == 0 and number % 7 ==0:
-        print(number)
+# for number in range(1500,3600):
+#     if number % 5 == 0 and number % 7 ==0:
+#         print(number)
 
 
 # print numbers divisible by 5 and 7 btw 1500 - 3600
+
+# iterate
+
+
+
+# print(6%2)
+# remaining value after division 
+
+# details ='pepsicola'
+# users =['ade','musa','hosanna','david','supo']
+# # print(users)
+# # print(details)
+# for alphabets in details:
+#     print(alphabets)
+
+# for names in users:
+#     if names == 'musa':
+#         continue
+#     print(names +'s')
+
+# for user in users:
+#     if user == 'hosanna':
+#         break
+#     print( user +" $ "+ str(500))
+
+# float() str() int() list()
+
+
+    
+
+# dictionary list set tuple
+# number= 25
+# while(number <= 50):
+#     number+=1
+#     if number % 2 == 0:
+#         if number == 32:
+#             continue
+#         if number == 42:
+#             break
+#         print(number)
+    
+
+
+
+    
+    
+    #assignment operator
+# 25-50
+# 30
+#
+# 1.Fibonacci Sequence: Write a program that 
+# generates the Fibonacci sequence up to the nth term 
+# (where n is a positive integer input by the user) using a loop.
+
+
+# 2. Prime Numbers: Create a function that prints all prime numbers between 1 and 100 using a loop.
+#  A prime number is a number that is only divisible by 1 and itself. 
+
+# 3.Character Count: Create a program that counts the occurrences of each character in a given string
+#  using a loop and prints the results in a dictionary format.
+
+# 4. Reverse a String: Using a loop, write a program that takes a user-input string 
+# and returns the string reversed (without using any built-in methods).
+# 5. Count Vowels and Consonants: Create a program that takes a string as 
+# input and counts the number of vowels and consonants using a loop.
+
+
+# fibonacci sequence series of number that increments after the first 2 numbers 
+# 0,1,1,2,3,5,8
+
+
+# input('input a number')
+
+
+# a function a block of code that runs whenever call it 
+
+def greet():
+    print('hello every one')
+
+greet()
+
+
+def greetz(name):
+    print('hello '+ name)
+
+greetz('iyke')
+greetz('Hosanna')
+
+# write a function that squares itself 
+
+def squares(num):
+    print(num**2)
+
+squares(2)
+squares(8)
+
+# takes 2 numbers and add them together
+
+def calculate(num1,num2):
+    print(f'the addition of {num1} and {num2} is {num1 + num2}')
+
+calculate(1,3)
+
+
+# function to calc age
+
+def ageCalc(year):
+    return (2024 -year)
+
+print(ageCalc(2015))
+
+
+# convert dollar to naira
+
+def nairaConvert(dollar):
+
+     return(f'the current rate of {dollar} is {dollar * 1500} naira' )
+
+
+print(nairaConvert(17))
+
+number1 = 5
+number2 =5
+
+number3=number2 + number1
+
+
+# function to check if an alphaet is a vowel or consonant
+
+def alphabetChecker(alphabet):
+    vowel = 'aeiouAEIOU'
+    if(alphabet in vowel):
+        print('alphabet is a vowel')
+    else:
+        print('alphabet is a consonant') 
+
+alphabetChecker('z')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
